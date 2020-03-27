@@ -13,7 +13,7 @@ all : $(PROGS)
 	$(CC) -c $< 
 
 clean :
-	rm  $(PROGS) *.o
+	rm  $(PROGS)
 
 delete :
 	rm $(SRCS)
