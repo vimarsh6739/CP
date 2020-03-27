@@ -16,4 +16,4 @@ clean :
 	rm  $(PROGS)
 
 delete :
-	rm $(SRCS)
+	rm $(SRCS) $(PROGS)
