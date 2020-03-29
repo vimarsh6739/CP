@@ -13,7 +13,9 @@ all : $(PROGS)
 	$(CC) -c $< 
 
 clean :
-	rm  $(PROGS)
+	rm -f $(PROGS)
+	> input.txt
+	> output.txt
 
 delete :
 	rm $(SRCS) $(PROGS)
