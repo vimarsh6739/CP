@@ -17,5 +17,5 @@ clean :
 	> input.txt
 	> output.txt
 
-delete :
+destroyall :
 	rm $(SRCS) $(PROGS)
