@@ -1,5 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+#define FOR0(n) for(int i=0;i<n;++i)
+#define FOR1(n) for(int i=1;i<=n;++i)
+
 typedef long long ll;
 
 int main(){
